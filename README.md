@@ -9,10 +9,10 @@ A fully resettable SQL database with sample data + test scripts
 This project builds a complete Car Dealership Database using MySQL.
 Your master SQL script:
 
-✔ Drops the database (if it exists)
-✔ Creates all tables
-✔ Inserts sample data
-✔ Can be safely run over and over
+ Drops the database (if it exists)
+ Creates all tables
+ Inserts sample data
+ Can be safely run over and over
 
 You also created a set of test scripts (one query per file) to verify that your database works correctly.
 
