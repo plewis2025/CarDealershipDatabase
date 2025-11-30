@@ -16,7 +16,7 @@ Your master SQL script:
 
 You also created a set of test scripts (one query per file) to verify that your database works correctly.
 
-📁 Project Structure
+ Project Structure
 CarDealershipDatabase/
 │
 ├── car_dealership_master.sql         # Main database setup script
@@ -64,46 +64,6 @@ Stores records of purchased vehicles.
 
 Stores vehicle lease information.
 
- Running the Database Script (MySQL Workbench)
-1. Open MySQL Workbench
-2. File → Open SQL Script…
-
-Choose:
-
-car_dealership_master.sql
-
-3. Click the Yellow Lightning Bolt ⚡
-
-Workbench will:
-
-Drop the old database
-
-Create a new, fresh one
-
-Create all tables
-
-Insert all sample data
-
-4. Refresh the Schemas Panel
-
-Your database will appear as:
-
-car_dealership
-
- Running Test Scripts
-
-Each test script is separate and easy to run.
-
-To run a test:
-
-In MySQL Workbench:
-
-File → Open SQL Script…
-
-
-Open any file in /tests
-
-Run it using the ⚡ button
 
  Test Scripts Included
  1 — Get all dealerships
